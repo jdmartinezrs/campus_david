@@ -1,0 +1,53 @@
+pregunta 1
+b) Imprime los números del 1 al 10.
+
+pregunta 2
+b) 110
+
+pregunta 3
+c) Mientras
+
+pregunta 4
+c) Los divisores de 6.
+
+pregunta 5
+a) 54321
+
+
+
+Algoritmo calculadoraDeEdades
+	edad <-1 
+	
+	mientras edad  > 0 hacer 
+		escribir "escriba su edad "
+		leer edad  
+		
+	FinMientras
+	
+	
+	escribir "oprima la tecla numero 1 si desea el promedio de edades , oprima la tecla numero 2 si desea saber la edad mayor   "
+	leer edad 
+	
+
+	edades <- edad + edad + 1 
+	
+	escribir "la cantidad de edades digitadas es " contador 
+	
+	Segun edad Hacer
+		1:
+			
+			escribir "el promedio de edades es " edad + edad / edades 
+			
+		2:
+			escribir "la edad mayor es  "
+			 
+		
+			
+			mientras i > edades Hacer
+				
+			FinMientras
+			
+		De Otro Modo:
+			escribir "opción no valida"
+	Fin Segun
+FinAlgoritmo
